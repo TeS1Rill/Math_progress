@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Math.Math_combinator"
+    android:background="@drawable/main_back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_back_onMenu_math"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/intro"
+                android:background="@drawable/click_button"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/back_button"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/perestanovka"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/button_radius"
+                android:text="Перестановка"
+                android:paddingHorizontal="15dp"
+                android:textColor="@color/white"
+                android:layout_margin="50dp"
+                android:fontFamily="@font/intro"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sochetanie"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/button_radius"
+                android:text="Сочетание"
+                android:paddingHorizontal="15dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/intro"
+                android:layout_margin="50dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/razmechenie"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/button_radius"
+                android:text="Размещение"
+                android:paddingHorizontal="15dp"
+                android:textColor="@color/white"
+                android:layout_margin="50dp"
+                android:fontFamily="@font/intro"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

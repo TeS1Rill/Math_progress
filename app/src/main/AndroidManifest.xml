@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tes.samsung.project_samsung">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project_samsung">
+        <activity
+            android:name=".Math.Math_arithmetics_sum_firts_n"
+            android:exported="false" />
+        <activity
+            android:name=".Math.Math_arithmetics_sum_n"
+            android:exported="false" />
+        <activity
+            android:name=".Math.Math_arithmetics_opredelenie"
+            android:exported="false" />
+        <activity
+            android:name=".Math.Math_arithmetics_svoistvo"
+            android:exported="false" />
+        <activity
+            android:name=".Math.Math_combinator_razmechenie"
+            android:exported="false" />
+        <activity
+            android:name=".Math.Math_combinator_sochetanie"
+            android:exported="false" />
+        <activity
+            android:name=".Math.Math_combinator_perestanovka"
+            android:exported="false" />
+        <activity
+            android:name=".Level_15x"
+            android:exported="false" />
+        <activity
+            android:name=".Level_14"
+            android:exported="false" />
+        <activity
+            android:name=".Level_13"
+            android:exported="false" />
+        <activity
+            android:name=".Level_12"
+            android:exported="false" />
+        <activity
+            android:name=".Level_11"
+            android:exported="false" />
+        <activity
+            android:name=".Level_10"
+            android:exported="false" />
+        <activity
+            android:name=".Level_9"
+            android:exported="false" />
+        <activity
+            android:name=".Math.Math_Arithmetics_progress"
+            android:exported="false" />
+        <activity
+            android:name=".Math.Math_BI_kv_yrav"
+            android:exported="false" />
+        <activity
+            android:name=".Math.Math_combinator"
+            android:exported="false" />
+        <activity
+            android:name=".Level_8"
+            android:exported="false" />
+        <activity
+            android:name=".Level_7"
+            android:exported="false" />
+        <activity
+            android:name=".Level_6"
+            android:exported="false" />
+        <activity
+            android:name=".Level_5"
+            android:exported="false" />
+        <activity
+            android:name=".Level_3"
+            android:exported="false" />
+        <activity
+            android:name=".Level_4"
+            android:exported="false" />
+        <activity
+            android:name=".Level_2"
+            android:exported="false" />
+        <activity
+            android:name=".Geometric.Geometric_ctg"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Geometric.Geometric_tg"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Geometric.Geometric_cos"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Geometric.Geometric_sin"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Geometric.Geometric_cathet"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Geometric.Geometric_hypoten"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Math.Math_procent"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Math.Math_brobality"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Math.Math_kv_yrav"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Level_1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Geometric.Menu_geometric"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Math.Menu_math"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Levels"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

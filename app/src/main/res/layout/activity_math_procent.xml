@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/main_back"
+    android:layout_height="match_parent"
+    tools:context=".Math.Math_procent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="left"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_back_menu_math_procent"
+                android:fontFamily="@font/intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/click_button"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/back_button"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:fontFamily="@font/intro"
+                android:gravity="center"
+                android:text="Введите значения:"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <EditText
+                android:id="@+id/num_n"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:ems="10"
+                android:fontFamily="@font/intro"
+                android:backgroundTint="@color/white"
+                android:inputType="number"
+                android:layout_marginHorizontal="60dp"
+                android:digits="0123456789.-"
+                android:textColor="@color/white"
+                android:hint="Число n"
+                android:textColorHint="@color/hint"
+                android:layout_marginTop="40dp"
+                />
+
+            <EditText
+                android:id="@+id/procent"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:ems="10"
+                android:fontFamily="@font/intro"
+                android:backgroundTint="@color/white"
+                android:inputType="number"
+                android:layout_marginHorizontal="60dp"
+                android:digits="0123456789.-"
+                android:textColor="@color/white"
+                android:hint="Процент от n"
+                android:textColorHint="@color/hint"
+                android:layout_marginTop="40dp"
+                />
+
+            <TextView
+                android:id="@+id/res_procent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:fontFamily="@font/intro"
+                android:gravity="center"
+                android:text="0 % = 0 %"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="40dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_1_work"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_full"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/intro"
+                android:layout_marginHorizontal="30dp"
+                android:text="Решить"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_2_reset"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/intro"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_full"
+                android:textColor="@color/white"
+                android:layout_marginHorizontal="30dp"
+                android:text="сброс" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

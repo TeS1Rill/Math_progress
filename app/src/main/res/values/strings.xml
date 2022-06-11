@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Math progress</string>
+    <string name="start_button">Мини-игра</string>
+    <string name="back_button">Назад</string>
+    <string name="level">Уровень:</string>
+    <string name="level_1">Уровень: 1</string>
+    <string name="level_2">Уровень: 2</string>
+    <string name="level_3">Уровень: 3</string>
+    <string name="level_4">Уровень: 4</string>
+    <string name="level_5">Уровень: 5</string>
+    <string name="level_6">Уровень: 6</string>
+    <string name="level_7">Уровень: 7</string>
+    <string name="level_8">Уровень: 8</string>
+    <string name="level_9">Уровень: 9</string>
+    <string name="level_10">Уровень: 10</string>
+    <string name="level_11">Уровень: 11</string>
+    <string name="level_12">Уровень: 12</string>
+    <string name="level_13">Уровень: 13</string>
+    <string name="level_14">Уровень: 14</string>
+    <string name="level_15">Уровень: 15</string>
+
+    <string name="point">Счет:</string>
+    <string name="text_priview">Сложность: легко\nНужно выбрать большую цифру.</string>
+    <string name="text_priview_level_2">Сложность: легко.\nНужно выбрать большее значение выражения.</string>
+    <string name="text_priview_level_3">Сложность: легко.\nНужно выбрать большее число.</string>
+    <string name="text_priview_level_4">Сложность: легко.\nНужно выбрать большее произведение.</string>
+    <string name="text_priview_level_5">Сложность: легко.\nНужно выбрать большее значение  выражения.</string>
+    <string name="text_priview_level_6">Сложность: средняя.\nНужно выбрать большее значение выражения.</string>
+    <string name="text_priview_level_7">Сложность: средняя.\nНужно выбрать большее значение дроби.</string>
+    <string name="text_priview_level_8">Сложность: средняя.\nНужно выбрать большее значение выражения.</string>
+    <string name="text_priview_level_9">Сложность: средняя.\nНужно выбрать большее значение выражения.</string>
+    <string name="text_priview_level_10">Сложность: средняя.\nНужно выбрать большее значение выражения дробей.</string>
+    <string name="text_priview_level_11">Сложность: Мастер быстрого счета.\nНужно выбрать большее значение выражения.</string>
+    <string name="text_priview_level_12">Сложность: Мастер быстрого счета.\nНужно выбрать большее значение градусной меры.</string>
+    <string name="text_priview_level_13">Сложность: Мастер быстрого счета.\nНужно выбрать большее значение выражения.</string>
+    <string name="text_priview_level_14">Сложность: Мастер быстрого счета.\nНужно выбрать большей корень уравнения.</string>
+    <string name="text_priview_level_15">Сложность: ВСЕ И СРАЗУ.\nНужно выбрать большее.</string>
+    <string name="text_button_priview">Начать</string>
+    <string name="text_math">Счёт</string>
+    <string name="text_back_geom">Дальше</string>
+    <string name="text_math_kv_yrav">Квадратное уравнение</string>
+    <string name="text_math_Bikv_yrav">БиКвадратное уравнение</string>
+    <string name="text_math_combinator">Комбинаторика</string>
+    <string name="text_math_arithmetics_progres">Арифметическая прогрессия</string>
+    <string name="text_math_geometric_progres">Геометрическая прогрессия</string>
+    <string name="text_math_probability">Вероятность</string>
+    <string name="text_math_procent">Нахождение процента</string>
+    <string name="text_geometric_cathet">Катеты</string>
+    <string name="text_geometric_hypoten">Гипотенуза</string>
+    <string name="text_geometric_sin">sin</string>
+    <string name="text_geometric_cos">cos</string>
+    <string name="text_geometric_tg">tg</string>
+    <string name="text_geometric_ctg">ctg</string>
+
+
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Math.Math_combinator"
+    android:background="@drawable/main_back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_back_onMenu_math"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/intro"
+                android:background="@drawable/click_button"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/back_button"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:fontFamily="@font/intro"
+                android:text="Выберете тип\n арифметической прогресии:" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/svoistvo"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/button_radius"
+                android:text="свойство"
+                android:layout_marginTop="60dp"
+                android:paddingHorizontal="15dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/intro"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/opredel"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@drawable/button_radius"
+                android:text="определение"
+                android:paddingHorizontal="15dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/intro"
+                />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sum_n"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="@drawable/button_radius"
+                android:text="сумма n-го члена"
+                android:paddingHorizontal="15dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/intro"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sum_n_first"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_height="50dp"
+                android:background="@drawable/button_radius"
+                android:text="сумма n певых членов"
+                android:paddingHorizontal="15dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/intro"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
